@@ -25,6 +25,8 @@ def decode_morse_msg(msg_morse)
   result_array.join
 end
 
+puts decode_char(".-")
+puts decode_word("-- -.--")
 puts decode_morse_msg('-- -.--   -. .- -- .   .. ...   - .. - ..- ...')
 puts decode_morse_msg('-- -.--   -. .- -- . ')
 puts decode_morse_msg('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
